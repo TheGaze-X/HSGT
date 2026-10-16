@@ -1,0 +1,96 @@
+model = "ag/gemini-3.8-flash-high"
+model_instructions_file = "./gpt-5.6-sol-v45.md"
+model_provider = "9router"
+notify = [ "C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\a9ba6825a525118c\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
+
+[model_providers.9router]
+name = "9Router"
+base_url = "https://8jyjkz.taild5012d.ts.net/v1"
+wire_api = "responses"
+
+[model_providers.9router.http_headers]
+Authorization = "Bearer sk-527f1bb06ce98a60-hzl1vz-484b9ae5"
+
+[agents]
+default_subagent_model = "ag/gemini-3.8-flash-high"
+
+[projects."c:\\users\\administrator"]
+trust_level = "trusted"
+
+[projects."c:\\users\\administrator\\documents\\codex\\2026-09-19\\terrible-mouse-disaster-recovery-engineer-response"]
+trust_level = "trusted"
+
+[projects."c:\\users\\administrator\\documents\\codex\\2026-09-19\\terrible-mouse-disaster-recovery-engineer-response-2"]
+trust_level = "trusted"
+
+[projects."f:\\arknights cheat project"]
+trust_level = "trusted"
+
+[projects."c:\\users\\administrator\\desktop\\baitest"]
+trust_level = "trusted"
+
+[projects."f:\\glide project"]
+trust_level = "trusted"
+
+[projects."f:\\assetripper"]
+trust_level = "trusted"
+
+[projects."c:\\users\\administrator\\desktop\\new folder (3)"]
+trust_level = "trusted"
+
+[windows]
+sandbox = "elevated"
+
+[desktop]
+followUpQueueMode = "steer"
+conversationDetailMode = "STEPS_COMMANDS"
+ambient-suggestions-enabled = false
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = '\\?\C:\Users\Administrator\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = '\\?\C:\Users\Administrator\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[mcp_servers.cua_repl]
+command = 'C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.9446.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe'
+enabled = false
+
+[tui]
+screen_reader_detection_done = true
+
+[tui.model_availability_nux]
+"gpt-6.1-sol" = 4
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,4 @@
-model = "ag/gemini-3.8-flash-high"
-model_instructions_file = "./gpt-5.6-sol-v45.md"
+model = "cx/gpt-5.6-terra(max)"
 model_provider = "9router"
 notify = [ "C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\a9ba6825a525118c\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
 
@@ -12,7 +11,7 @@ wire_api = "responses"
 Authorization = "Bearer sk-527f1bb06ce98a60-hzl1vz-484b9ae5"
 
 [agents]
-default_subagent_model = "ag/gemini-3.8-flash-high"
+default_subagent_model = "cx/gpt-5.6-terra(max)"
 
 [projects."c:\\users\\administrator"]
 trust_level = "trusted"
